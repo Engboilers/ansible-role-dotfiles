@@ -1,6 +1,6 @@
 # Ansible Role: Dotfiles
 
-[![Build Status](https://travis-ci.org/kadaan/ansible-role-dotfiles.svg?branch=master)](https://travis-ci.org/kadaan/ansible-role-dotfiles)
+[![Build Status](https://travis-ci.org/engboilers/ansible-role-dotfiles.svg?branch=master)](https://travis-ci.org/engboilers/ansible-role-dotfiles)
 
 Installs a set of dotfiles from a given Git repository.
 
@@ -40,7 +40,7 @@ Configure OS X by running a .osx file, if it exists, in the root of the dotfiles
 
     - hosts: localhost
       roles:
-        - { role: kadaan.dotfiles, dotfiles_execute: true }
+        - { role: engboilers.dotfiles, dotfiles_execute: true }
 
 ## License
 
