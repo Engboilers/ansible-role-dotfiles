@@ -40,7 +40,7 @@ Configure OS X by running a .osx file, if it exists, in the root of the dotfiles
 
     - hosts: localhost
       roles:
-        - { role: engboilers.dotfiles, dotfiles_execute: true }
+        - { role: Engboilers.dotfiles, dotfiles_execute: true }
 
 ## License
 
